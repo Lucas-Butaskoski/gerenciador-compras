@@ -1,0 +1,24 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --verde: #2d6a4f;
+  --verde-claro: #52b788;
+  --verde-palido: #d8f3dc;
+  --creme: #fefae0;
+  --laranja: #e76f51;
+  --texto: #1b1b1b;
+  --texto-suave: #5a5a5a;
+  --borda: #b7e4c7;
+  --sombra: 0 4px 24px rgba(45, 106, 79, 0.10);
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--creme);
+  color: var(--texto);
+  min-height: 100vh;
+}
